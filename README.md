@@ -28,7 +28,7 @@ pip install deepspeed decord moviepy
 ```
 
 # Data Preparation
-- Download model [Qwen2.5-VL-7B](https://www.modelscope.cn/models/Qwen/Qwen2.5-VL-7B-Instruct), [Qwen3-VL-8B](https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Instruct), [LLaVA-OneVision-1.5-8B](https://huggingface.co/lmms-lab/LLaVA-OneVision-1.5-8B-Instruct)  and datasets [Charades-STA](https://prior.allenai.org/projects/charades),  [ActivityNet-Caption](https://huggingface.co/datasets/yeliudev/VideoMind-Dataset/tree/main/activitynet)
+- Download model [Qwen2-VL-7B](https://www.modelscope.cn/models/Qwen/Qwen2-VL-7B-Instruct), [Qwen3-VL-8B](https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Instruct), [LLaVA-OneVision-1.5-8B](https://huggingface.co/lmms-lab/LLaVA-OneVision-1.5-8B-Instruct)  and datasets [Charades-STA](https://prior.allenai.org/projects/charades),  [ActivityNet-Caption](https://huggingface.co/datasets/yeliudev/VideoMind-Dataset/tree/main/activitynet)
 - Specify your dataset path in data/data_config.py and your model path in eval/utils.py.
 - Process the video into a grid image for input
 
